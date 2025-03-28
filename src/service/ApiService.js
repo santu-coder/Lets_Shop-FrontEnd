@@ -22,4 +22,7 @@ const login = async (userdata) => {
   }
 };
 
-export default { signup, login };
+// Assign to a variable before exporting
+const ApiService = { signup, login };
+
+export default ApiService;
