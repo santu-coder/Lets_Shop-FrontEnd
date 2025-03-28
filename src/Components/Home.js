@@ -49,9 +49,7 @@
 
 // export default Home;
 
-
-
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import logo from "../Assets/LetsShop_Images/images/slide-01.jpg";
 import logo1 from "../Assets/LetsShop_Images/images/slide-02.jpg";
 import logo2 from "../Assets/LetsShop_Images/images/slide-03.jpg";
@@ -66,17 +64,18 @@ const Home = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
   };
 
-  const nextSlide = () => {
+  // Using useCallback to memoize the function so it doesn't change on every render
+  const nextSlide = useCallback(() => {
     setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
-  };
+  }, [images.length]); // Depend on images.length to avoid unnecessary re-renders
 
   useEffect(() => {
     const interval = setInterval(() => {
-      nextSlide();
+      nextSlide(); // Call the memoized nextSlide function
     }, 3000); // Change slide every 3 seconds automatically
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
-  }, [nextSlide]);  // Added nextSlide as a dependency
+  }, [nextSlide]);  // Only need nextSlide in the dependency array now
 
   return (
     <>
