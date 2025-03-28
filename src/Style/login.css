@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Centering the login container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.login-box {
+  background: #fff;
+  padding: 30px 30px 30px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 400px;
+}
+
+/* Title Styling */
+.login-box h2 {
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.login-box h2 span {
+  font-weight: bold;
+}
+
+.login-box p {
+  font-size: 12px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+/* Form Styling */
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Options (Remember Me & Forgot Password) */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.options a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+/* Login Button */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #d5a319, #000000);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-btn:hover {
+  opacity: 0.9;
+}
+
+/* Signup Text */
+.signup-text {
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.signup-text a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Social Login */
+.social-login {
+  margin-top: 15px;
+}
+
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 20%;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.google-btn {
+  background: #ff0000;
+}
+
+.facebook-btn {
+  background: #084595;
+}
+
+.linkedin-btn {
+  background: #0c5d88;
+}

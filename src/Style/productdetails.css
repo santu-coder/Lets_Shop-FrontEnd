@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: red;
+  }
+  .close-btn:hover {
+    color: darkred;
+  }
+  
+  .product-box{
+    background: #fff;
+    padding: 30px 30px 30px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 1000px;
+    display: flex;
+  }
+  
+  /* .image-section {
+    display: flex;
+  } */
+  
+  .thumbnail-images {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .thumbnail-images img {
+    width: 60px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .main-image img {
+    width: 400px;
+    border-radius: 5px;
+    padding-left: 15px;
+  }
+  
+  .details-section {
+    margin-left: 75px;
+    max-width: 360px;
+  }
+
+  .details-section h2, p, div, select  {
+    padding: 5px 0px;
+
+  }
+  /* .quantity-container-btn1 {
+    margin-left: 0px;
+    width: 100px;
+  } */
+
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .description {
+    color: gray;
+  }
+  
+  select, .quantity-container {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .quantity-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px 140px;;
+
+  }
+  
+  .q-c-div {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+
+  }
+  
+  .add-buy {
+    /* background-color: #6c63ff; */
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .add-buy button{
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #d5a319, #000000);
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  

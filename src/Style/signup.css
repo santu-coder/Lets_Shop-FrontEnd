@@ -1,0 +1,120 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Centering the signup container */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.signup-box {
+  background: #fff;
+  padding: 30px 30px 30px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 450px;
+}
+
+/* Title Styling */
+.signup-box h2 {
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.signup-box h2 span {
+  font-weight: bold;
+}
+
+.signup-box p {
+  font-size: 15px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+/* Form Styling */
+.signup-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Input Group for First & Last Name, Password Fields */
+.input-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-group input {
+  width: 48%;
+}
+
+/* Register Button */
+.register-btn {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #d5a319, #181818);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.register-btn:hover {
+  opacity: 0.9;
+}
+
+/* Login Text */
+.login-text {
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.login-text a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Social Login */
+.social-login {
+  margin-top: 15px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icons button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 20%;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.google-btn {
+  background: #db4437;
+}
+
+.facebook-btn {
+  background: #1877f2;
+}
+
+.linkedin-btn {
+  background: #0077b5;
+}

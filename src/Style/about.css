@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-background {
+  display: flex;
+  background-image: url("/src/Assets/LetsShop_Images/images/bg-01.jpg");
+  width: 1536px;
+  height: 240px;
+  justify-content: center;
+  align-items: center;
+}
+.about-background h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.our-section {
+  width: 1520px;
+  height: 1322px;
+  padding: 75px 0px 120px;
+}
+
+.our-story-section {
+  display: flex;
+  margin-bottom: 100px;
+}
+.our-mission-section {
+  display: flex;
+}
+
+.our-story {
+  width: 800px;
+  height: 530px;
+  /* border: 2px solid black; */
+  padding: 25px 0px;
+  margin-left: 115px;
+}
+
+.our-story p {
+  font-size: 17px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.our-story-img {
+  width: 400px;
+  height: 400px;
+  /* padding: 20px 20px 20px 20px; */
+  margin: 60px 0px 0px 100px;
+  /* border: 2px solid black; */
+}
+.our-story-img img {
+  width: 400px;
+  height: 400px;
+}
