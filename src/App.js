@@ -24,12 +24,13 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<SignUp />} />
-            <Route path="/cart" element={<Cart />} />
+            <Route path="/cart"  element={<Cart />} />
             <Route path="/product/:id" element={<ProductDetails />} />
           </Routes>
         </>
       </Router>
-    </CartProvider>
+      </CartProvider>
+// >>>>>>> f0b5cda ( signup done)
   );
 };
 

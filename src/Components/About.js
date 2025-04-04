@@ -3,7 +3,6 @@ import React from "react";
 import logo1 from "../Assets/LetsShop_Images/images/about-01.jpg";
 import logo2 from "../Assets/LetsShop_Images/images/about-02.jpg";
 import Footer from "./Footer";
-import "../Style/about.css"
 
 const About = () => {
   return (
